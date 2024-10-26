@@ -39,16 +39,15 @@ Implementar um sistema de armazenamento e organização de livros para uma bibli
 O projeto é organizado da seguinte maneira:
 
 ```plaintext
-Atal-ProjetoListaEncadeada
+biblioteca
 ├── src
 │   └── br.edu.unifacisa.biblioteca
 │       ├── Livro.java               // Classe que representa um livro
 │       ├── Nodo.java                // Estrutura de nó para a lista encadeada
 │       ├── ListaEncadeada.java      // Implementação da lista encadeada
-│       ├── Ordenacao.java           // Algoritmos de ordenação (Bubble Sort e Quick Sort)
 │       └── Main.java                // Classe principal para execução e testes
 ├── README.md                        // Documentação do projeto
-└── Documentação.pdf                 // Explicação da estrutura e algoritmos
+└── Documentação                     // Explicação da estrutura e algoritmos
 ```
 
 ## 🚀 Como Usar
