@@ -1,60 +1,71 @@
-# 
-# 📊 Atal-ProjetoListaEncadeada
+📊 Atal-ProjetoListaEncadeada
+Bem-vindo(a)! Este repositório contém as atividades desenvolvidas durante a disciplina Aplicar Algoritmos de Apoio à Pesquisa Operacional, ministrada pelo professor Jonhnanthan Oliveira no curso de Sistemas da Informação - Unifacisa. Este projeto é uma implementação prática de um sistema para administração de uma biblioteca, desenvolvido pelos alunos: Gustavo Tomio Magalhaes Kubo, Thiago de Alencar Limeira e Sérgio Magno Castor Pinheiro.
 
-Bem-vindo(a)! Este repositório contém as atividades desenvolvidas durante a disciplina **Aplicar Algoritmos de Apoio à Pesquisa Operacional**, ministrada pelo professor **Jonhnanthan Oliveira** no curso de **Sistemas da Informação - Unifacisa**. 
-Aqui iremos implementar um pequeno Projeto para Administração de Uma Biblioteca.
+🎯 Objetivo do Projeto
+Implementar um sistema de armazenamento e organização de livros para uma biblioteca usando estruturas de dados e algoritmos específicos, sem o uso do Collections Framework.
 
----
+📌 Critérios de Implementação
+Estrutura de Dados:
 
-## 📂 Estrutura do Repositório
+Lista sequencial ou lista encadeada.
+Estrutura capaz de armazenar objetos que representam livros com os atributos:
+Título
+Autor
+Ano de Publicação
+Algoritmos de Ordenação:
 
-As atividades estarão organizadas em pastas, de acordo com os temas abordados ao longo da disciplina. Cada atividade inclui uma breve explicação e a solução implementada em **Java**.
+Utilização de bubble sort ou quick sort para ordenar os livros por título ou autor.
+Interface do Usuário:
 
-### Diretórios:
+Baseada em linha de comando (CLI) ou interface gráfica (UI).
+Funcionalidades:
+Adicionar Livro: Cadastro de novos livros com título, autor e ano de publicação.
+Listar Livros: Exibição de todos os livros cadastrados.
+Ordenar Livros: Ordenação dos livros cadastrados por título ou autor.
+Buscar Livro: Pesquisa de um livro específico.
+Documentação:
 
-- **atividade-1/**: *Botando em prática a construção de uma estrutura de dados*  
-  **Descrição**  
-  Você foi desafiado a implementar uma estrutura de dados do zero.
+Explicação sobre a estrutura de dados escolhida e sua implementação.
+Descrição do algoritmo de ordenação adotado e os critérios para sua escolha.
+📂 Estrutura do Projeto
+O projeto é organizado da seguinte maneira:
 
-  **O que deve ser feito?**  
-  - **Questão 1:** Escolha uma das estruturas abaixo e desenvolva sua implementação:
-    - Listas
-    - Filas
-    - Pilhas
-    - Deques
+less
+Copiar código
+Atal-ProjetoListaEncadeada
+├── src/
+│   ├── Livro.java               // Classe que representa um livro
+│   ├── Nodo.java                // Estrutura de nó para a lista encadeada
+│   ├── ListaEncadeada.java      // Implementação da lista encadeada
+│   ├── Ordenacao.java           // Algoritmos de ordenação (Bubble Sort e Quick Sort)
+│   └── Main.java                // Classe principal para execução e testes
+├── README.md                    // Documentação do projeto
+└── Documentação.pdf             // Explicação da estrutura e algoritmos
+🚀 Como Usar
+1. Clonando o Repositório
+bash
+Copiar código
+git clone https://github.com/usuario/Atal-ProjetoListaEncadeada.git
+cd Atal-ProjetoListaEncadeada
+2. Compilando e Executando o Projeto
+Para compilar e executar o projeto, certifique-se de ter o Java Development Kit (JDK) instalado.
 
----
+Compilação
+No terminal, dentro da pasta do projeto, compile os arquivos .java:
 
-- **atividade-2/**: *Pensando em qual a melhor estrutura de dados a ser utilizada*  
-  **Descrição**  
-  Você está desenvolvendo um sistema de gerenciamento de pedidos de uma cafeteria, e sua missão é criar a regra de negócio do coração da aplicação.  
+bash
+Copiar código
+javac -d bin src/br/edu/unifacisa/biblioteca/*.java src/br/edu/unifacisa/biblioteca/application/*.java
+Execução
+Após a compilação, execute o projeto chamando a classe principal (Main):
 
-  **Regra de negócio:**  
-  - Os pedidos chegam em uma sequência contínua e devem ser processados em ordem de chegada, com três considerações especiais:
-    1. **Clientes VIP** têm prioridade máxima.
-    2. **Pedidos cancelados** devem ser removidos da lista.
-    3. O gerente pode **visualizar os pedidos** pendentes sem removê-los.
+bash
+Copiar código
+java -cp bin br.edu.unifacisa.biblioteca.application.Main
+📝 Documentação
+Acesse o arquivo Documentação.pdf para uma explicação completa sobre:
 
-  **O que deve ser feito?**  
-  - **Questão 1 (Obrigatória):** Escreva um documento em formato markdown justificando sua escolha da estrutura de dados ideal para o problema.
-  - **Questão 2 (Opcional):** Implemente uma classe de negócio que atenda às seguintes funcionalidades:
-    - Adicionar um novo pedido.
-    - Processar o próximo pedido.
-    - Visualizar os pedidos na fila sem removê-los.
-    - Remover um pedido cancelado.
-    - Atualizar a prioridade de um pedido na fila.
-
----
-
-## 🛠 Tecnologias Utilizadas
-
-- **Java**
-- **Eclipse IDE 2024-06**
-
----
-
-## ▶️ Como Executar
-
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/SergioPinheiroCG/ATAL.git
+Estrutura de dados escolhida e justificativas.
+Algoritmo de ordenação utilizado e análise de desempenho.
+📬 Contribuições
+Fique à vontade para contribuir!
