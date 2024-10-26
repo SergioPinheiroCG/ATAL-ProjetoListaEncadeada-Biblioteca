@@ -49,6 +49,14 @@ biblioteca
 ├── README.md                        // Documentação do projeto
 └── Documentação                     // Explicação da estrutura e algoritmos
 ```
+🛠️ Tecnologias Utilizadas
+```bash
+- Eclipse IDE 2024-06: Ambiente de desenvolvimento integrado usado para a criação e execução do projeto.
+
+- Java: Linguagem de programação utilizada para desenvolver todas as classes e algoritmos.
+
+- Linha de Comando (CLI): Interface do sistema, fornecendo opções para adicionar, listar, ordenar e buscar livros.
+```
 
 ## 🚀 Como Usar
 ```bash
