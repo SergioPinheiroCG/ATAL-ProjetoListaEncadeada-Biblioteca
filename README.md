@@ -1,37 +1,43 @@
-📊 Atal-ProjetoListaEncadeada
-Bem-vindo(a)! Este repositório contém as atividades desenvolvidas durante a disciplina Aplicar Algoritmos de Apoio à Pesquisa Operacional, ministrada pelo professor Jonhnanthan Oliveira no curso de Sistemas da Informação - Unifacisa. Este projeto é uma implementação prática de um sistema para administração de uma biblioteca, desenvolvido pelos alunos: Gustavo Tomio Magalhaes Kubo, Thiago de Alencar Limeira e Sérgio Magno Castor Pinheiro.
+# 📊 Atal-ProjetoListaEncadeada
 
-🎯 Objetivo do Projeto
-Implementar um sistema de armazenamento e organização de livros para uma biblioteca usando estruturas de dados e algoritmos específicos, sem o uso do Collections Framework.
+Bem-vindo(a)! Este repositório contém as atividades desenvolvidas durante a disciplina **Aplicar Algoritmos de Apoio à Pesquisa Operacional**, ministrada pelo professor **Jonhnanthan Oliveira** no curso de **Sistemas da Informação - Unifacisa**. Este projeto é uma implementação prática de um sistema para administração de uma biblioteca, desenvolvido pelos alunos: Gustavo Tomio Magalhaes Kubo, Thiago de Alencar Limeira e Sérgio Magno Castor Pinheiro.
 
-📌 Critérios de Implementação
-Estrutura de Dados:
+---
 
-Lista sequencial ou lista encadeada.
-Estrutura capaz de armazenar objetos que representam livros com os atributos:
-Título
-Autor
-Ano de Publicação
-Algoritmos de Ordenação:
+## 🎯 Objetivo do Projeto
 
-Utilização de bubble sort ou quick sort para ordenar os livros por título ou autor.
-Interface do Usuário:
+Implementar um sistema de armazenamento e organização de livros para uma biblioteca usando estruturas de dados e algoritmos específicos, sem o uso do **Collections Framework**.
 
-Baseada em linha de comando (CLI) ou interface gráfica (UI).
-Funcionalidades:
-Adicionar Livro: Cadastro de novos livros com título, autor e ano de publicação.
-Listar Livros: Exibição de todos os livros cadastrados.
-Ordenar Livros: Ordenação dos livros cadastrados por título ou autor.
-Buscar Livro: Pesquisa de um livro específico.
-Documentação:
+### 📌 Critérios de Implementação
 
-Explicação sobre a estrutura de dados escolhida e sua implementação.
-Descrição do algoritmo de ordenação adotado e os critérios para sua escolha.
-📂 Estrutura do Projeto
+1. **Estrutura de Dados**:
+   - Lista sequencial ou lista encadeada.
+   - Estrutura capaz de armazenar objetos que representam livros com os atributos:
+     - **Título**
+     - **Autor**
+     - **Ano de Publicação**
+
+2. **Algoritmos de Ordenação**:
+   - Utilização de **bubble sort** ou **quick sort** para ordenar os livros por título ou autor.
+
+3. **Interface do Usuário**:
+   - Baseada em linha de comando (CLI) ou interface gráfica (UI).
+   - Funcionalidades:
+     - **Adicionar Livro**: Cadastro de novos livros com título, autor e ano de publicação.
+     - **Listar Livros**: Exibição de todos os livros cadastrados.
+     - **Ordenar Livros**: Ordenação dos livros cadastrados por título ou autor.
+     - **Buscar Livro**: Pesquisa de um livro específico.
+
+4. **Documentação**:
+   - Explicação sobre a estrutura de dados escolhida e sua implementação.
+   - Descrição do algoritmo de ordenação adotado e os critérios para sua escolha.
+
+---
+
+## 📂 Estrutura do Projeto
+
 O projeto é organizado da seguinte maneira:
 
-less
-Copiar código
 Atal-ProjetoListaEncadeada
 ├── src/
 │   ├── Livro.java               // Classe que representa um livro
@@ -41,31 +47,13 @@ Atal-ProjetoListaEncadeada
 │   └── Main.java                // Classe principal para execução e testes
 ├── README.md                    // Documentação do projeto
 └── Documentação.pdf             // Explicação da estrutura e algoritmos
-🚀 Como Usar
-1. Clonando o Repositório
-bash
-Copiar código
+
+---
+
+## 🚀 Como Usar
+
+1. Clonando o Repositório:
+
+```bash
 git clone https://github.com/usuario/Atal-ProjetoListaEncadeada.git
 cd Atal-ProjetoListaEncadeada
-2. Compilando e Executando o Projeto
-Para compilar e executar o projeto, certifique-se de ter o Java Development Kit (JDK) instalado.
-
-Compilação
-No terminal, dentro da pasta do projeto, compile os arquivos .java:
-
-bash
-Copiar código
-javac -d bin src/br/edu/unifacisa/biblioteca/*.java src/br/edu/unifacisa/biblioteca/application/*.java
-Execução
-Após a compilação, execute o projeto chamando a classe principal (Main):
-
-bash
-Copiar código
-java -cp bin br.edu.unifacisa.biblioteca.application.Main
-📝 Documentação
-Acesse o arquivo Documentação.pdf para uma explicação completa sobre:
-
-Estrutura de dados escolhida e justificativas.
-Algoritmo de ordenação utilizado e análise de desempenho.
-📬 Contribuições
-Fique à vontade para contribuir!
