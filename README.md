@@ -72,10 +72,12 @@ Após a compilação, execute o projeto chamando a classe principal (Main):
 bash
 Copiar código
 java -cp bin br.edu.unifacisa.biblioteca.application.Main
-📝 Documentação
+
+## 📝 Documentação
 Acesse o arquivo Documentação.pdf para uma explicação completa sobre:
 
 Estrutura de dados escolhida e justificativas.
 Algoritmo de ordenação utilizado e análise de desempenho.
-📬 Contribuições
+
+## 📬 Contribuições
 Fique à vontade para contribuir!
