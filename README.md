@@ -40,6 +40,7 @@ O projeto é organizado da seguinte maneira:
 
 Atal-ProjetoListaEncadeada
 ├── src/
+
 │   ├── Livro.java               // Classe que representa um livro
 │   ├── Nodo.java                // Estrutura de nó para a lista encadeada
 │   ├── ListaEncadeada.java      // Implementação da lista encadeada
@@ -57,3 +58,24 @@ Atal-ProjetoListaEncadeada
 ```bash
 git clone https://github.com/usuario/Atal-ProjetoListaEncadeada.git
 cd Atal-ProjetoListaEncadeada
+
+2. Compilando e Executando o Projeto:
+Para compilar e executar o projeto, certifique-se de ter o Java Development Kit (JDK) instalado.
+
+No terminal, dentro da pasta do projeto, compile os arquivos .java:
+
+bash
+Copiar código
+javac -d bin src/br/edu/unifacisa/biblioteca/*.java src/br/edu/unifacisa/biblioteca/application/*.java
+Após a compilação, execute o projeto chamando a classe principal (Main):
+
+bash
+Copiar código
+java -cp bin br.edu.unifacisa.biblioteca.application.Main
+📝 Documentação
+Acesse o arquivo Documentação.pdf para uma explicação completa sobre:
+
+Estrutura de dados escolhida e justificativas.
+Algoritmo de ordenação utilizado e análise de desempenho.
+📬 Contribuições
+Fique à vontade para contribuir!
