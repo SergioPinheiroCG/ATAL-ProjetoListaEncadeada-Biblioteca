@@ -1,4 +1,4 @@
-# 📊 ATAL-ProjetoListaEncadeada
+# 📊 ATAL-ProjetoListaEncadeada - Biblioteca
 
 Bem-vindo(a)! Este repositório contém as atividades desenvolvidas durante a disciplina **Aplicar Algoritmos de Apoio à Pesquisa Operacional**, ministrada pelo professor **Jonhnanthan Oliveira** no curso de **Sistemas da Informação - Unifacisa**. Este projeto é uma implementação prática de um sistema para administração de uma biblioteca, desenvolvido pelos alunos: Gustavo Tomio Magalhaes Kubo, Thiago de Alencar Limeira e Sérgio Magno Castor Pinheiro.
 
