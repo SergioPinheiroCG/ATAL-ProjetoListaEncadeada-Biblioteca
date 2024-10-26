@@ -52,10 +52,8 @@ Atal-ProjetoListaEncadeada
 ```
 
 ## 🚀 Como Usar
-
-1. Clonando o Repositório:
-
 ```bash
+1. Clonando o Repositório:
 git clone https://github.com/usuario/Atal-ProjetoListaEncadeada.git
 cd Atal-ProjetoListaEncadeada
 
@@ -71,9 +69,11 @@ java -cp bin br.edu.unifacisa.biblioteca.application.Main
 ```
 
 ## 📝 **Documentação**
-    Acesse a pasta Documentação para ter acesso aos documentos explicativos:
+```bash
+* Acesse a pasta Documentação para ter acesso aos documentos explicativos:
    - Estrutura de dados escolhida e justificativas.
    - Algoritmo de ordenação utilizado e análise de desempenho.
----
+```
+
 ## 📬 Contribuições
 Fique à vontade para contribuir!
